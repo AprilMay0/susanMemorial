@@ -1,0 +1,57 @@
+.text {
+  font-size: 1.35em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.picture {
+  display: block;
+  margin: auto;
+}
+
+.pictureShare {
+  max-width: 48vw;
+  max-height: 70vh;
+  margin: auto;
+}
+
+.iframeClass {
+  width: 45vw;
+  height: 70vh;
+  align: top;
+}
+
+#obit {
+  display: inline;
+}
+
+body {
+  margin-top:2%;
+  background:#F5F5F5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+  background-color: #111;
+}
